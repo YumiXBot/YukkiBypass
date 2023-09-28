@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "9807229",
+        "value": "17596251",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "c5717922602f7818bd62f4355a7d70da",
+        "value": "e58343b4c0193e293e391daf97603fcd",
         "required": true
       },
       "BOT_TOKEN": {
@@ -30,7 +30,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Mongo DB URL",
-        "value": "",
+        "value": "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
@@ -40,7 +40,7 @@
       }, 
       "GIT_TOKEN": {
         "description": "Git Token",
-        "value": "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",
+        "value": "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",
         "required": true
       },       
       "STRING_SESSION": {
