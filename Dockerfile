@@ -5,6 +5,6 @@ RUN apt-get update -y && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
 COPY . /app/
 WORKDIR /app/
-RUN git clone https://github.com/YumiXBot/StrangerXMusic StrangerXMusic
-RUN cd StrangerXMusic && pip3 install -U -r requirements.txt
-CMD cd StrangerXMusic && bash start
+RUN git clone https://github.com/YumiXBot/AloneYukki AloneYukki
+RUN cd AloneYukki && pip3 install -U -r requirements.txt
+CMD cd AloneYukki && bash start
